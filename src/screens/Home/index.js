@@ -9,6 +9,7 @@ const index = () => {
             <View>
                 <Title text="props text" />
                 <Title />
+                <Text>Bauuus</Text>
             </View>
         </SafeAreaView>
     )

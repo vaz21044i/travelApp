@@ -6,6 +6,7 @@ export default function App() {
     <SafeAreaView style={styles.container}>
       <Home />
 
+
     </SafeAreaView>
   );
 }
