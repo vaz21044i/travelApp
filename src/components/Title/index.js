@@ -1,14 +1,12 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { Text } from 'react-native';
-import style from './style';
+import styles from './style';
 
-const title = ({ text }) => {
-    useEffect(() => {
-        console.log('Hello useEffect')
-    }, [])
+const title = ({ text, style }) => {
+
     return (
 
-        <Text style={style.title}>{text}</Text>
+        <Text style={[styles.title, style]}>{text}</Text>
 
     )
 }
